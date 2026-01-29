@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build artifacts
+dist
+.astro
+.turbo
+
+# Development
+.env.local
+.env.development
+
+# Testing
+coverage
+.nyc_output
+e2e/test-results
+e2e/playwright-report
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary
+.tmp
+.temp
+*.tmp
+*.temp
+
+# Documentation source (only deploy built docs)
+docs/*/src
+!docs/tutorialkit.dev/dist
